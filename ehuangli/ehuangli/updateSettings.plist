@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appID</key>
+	<string>759743957</string>
+	<key>channelIndex</key>
+	<integer>1</integer>
+	<key>channels</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>AppStore</string>
+			<key>channelId</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>企业版</string>
+			<key>channelId</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

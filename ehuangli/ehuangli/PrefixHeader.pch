@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  ehuangli
+//
+//  Created by 张玉庭 on 15/4/11.
+//  Copyright (c) 2015年 zyt. All rights reserved.
+//
+
+#ifndef ehuangli_PrefixHeader_pch
+#define ehuangli_PrefixHeader_pch
+#endif
+
+#import "ZHConfig.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+//第三方账户
+#define UMAppKey    @"552231f8fd98c5d057000515"
+#define WXAppId     @"wx550dc97e89182ee2"
+#define WXSecret    @"882d5b47fea0f2dca011cec10130b8e4"
+#define SinaAppKey  @"2523510776"
+#define QQAppId     @"100561626"
+#define QQAppKey    @"0c7ee7168268c51e6e5ee163285b5d1f"
+#define TencentKey  @"801538689"
