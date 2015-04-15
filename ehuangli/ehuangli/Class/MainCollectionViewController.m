@@ -58,7 +58,7 @@ static NSString *foodCellID = @"foodCellID";
         UILabel *tLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 15, kWidth, 21)];
         tLabel.font = [UIFont systemFontOfSize:16];
         tLabel.textAlignment = NSTextAlignmentCenter;
-        tLabel.text = @"商务合作";
+        tLabel.text = @"联系我们";
         [vv addSubview:tLabel];
         
         UILabel *eLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 35, kWidth, 21)];
@@ -170,8 +170,6 @@ static NSString *foodCellID = @"foodCellID";
         case 101:
         {
             [self showLeftView];
-//            [self.navigationController pushViewController:[UMFeedback feedbackViewController]
-//                                                 animated:YES];
         }
             break;
         case 102:
@@ -244,13 +242,17 @@ static NSString *foodCellID = @"foodCellID";
     
 }
 
-- (void)pushTo:(UIViewController *)vc{
+- (void)pushTo:(UIViewController *)vc animation:(BOOL)animation{
     
     [self showMainView];
-    [self.navigationController pushViewController:vc animated:YES];
+    [self.navigationController pushViewController:vc animated:animation];
 }
 
-
+- (void)presentTo:(UIViewController *)vc animated:(BOOL)flag completion:(void (^)(void))completion{
+    
+    [self showMainView];
+    [self presentViewController:vc animated:flag completion:completion];
+}
 
 
 

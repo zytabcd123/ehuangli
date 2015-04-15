@@ -542,6 +542,7 @@
 				TargetAttributes = {
 					56A3F3E11AD3BD1C00A43D51 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = UQ87N2WZ76;
 					};
 					56A3F3FA1AD3BD1C00A43D51 = {
 						CreatedOnToolsVersion = 6.2;
@@ -796,8 +797,9 @@
 			baseConfigurationReference = 1A6018BC7F30242E0E17F079 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yuting Zhang (WAV26RJJLG)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yuting Zhang (WAV26RJJLG)";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaoming zhou (WJ2UQG9YB7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: xiaoming zhou (WJ2UQG9YB7)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ehuangli/Framework",
@@ -817,7 +819,7 @@
 					"$(PROJECT_DIR)/ehuangli/Framework/UM4.2.1/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bb27069e-05c4-4c46-ba2f-cfed1e1b6ecd";
+				PROVISIONING_PROFILE = "38bffb99-7ef3-4150-bc9e-3ac39d7dbf1a";
 			};
 			name = Debug;
 		};
@@ -826,8 +828,9 @@
 			baseConfigurationReference = F1567EA91CC015608132AD81 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: wang huai wuhan science and technology co., LTD/";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: wang huai wuhan science and technology co., LTD/";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: xiaoming zhou (UQ87N2WZ76)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: xiaoming zhou (UQ87N2WZ76)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ehuangli/Framework",
@@ -847,7 +850,7 @@
 					"$(PROJECT_DIR)/ehuangli/Framework/UM4.2.1/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bb27069e-05c4-4c46-ba2f-cfed1e1b6ecd";
+				PROVISIONING_PROFILE = "38bffb99-7ef3-4150-bc9e-3ac39d7dbf1a";
 			};
 			name = Release;
 		};

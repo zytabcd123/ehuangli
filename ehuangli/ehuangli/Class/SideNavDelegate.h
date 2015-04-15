@@ -11,7 +11,8 @@
 @protocol SideNavDelegate <NSObject>
 
 @optional
-- (void)pushTo:(UIViewController*)vc;
-//- (void)ReceiveCardOpenCameraVc:(UIViewController*)vc animated:(BOOL)animated completion:(void(^)())completion;
+
+- (void)pushTo:(UIViewController*)vc animation:(BOOL)animation;
+- (void)presentTo:(UIViewController*)vc animated: (BOOL)flag completion:(void (^)(void))completion;
 
 @end

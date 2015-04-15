@@ -49,13 +49,16 @@
 //    
 //    [[UMFeedback sharedInstance] post:datas];
     
-    
+    if ([self.delegate respondsToSelector:@selector(presentTo:animated:completion:)]) {
+        
+        [self.delegate presentTo:[UMFeedback feedbackModalViewController] animated:YES completion:nil];
+    }
 //    [self presentViewController:[UMFeedback feedbackModalViewController] animated:YES completion:nil];
 //    [self.navigationController pushViewController:[UMFeedback feedbackViewController] animated:YES];
-    if ([self.delegate respondsToSelector:@selector(pushTo:)]) {
-        
-        [self.delegate pushTo:[UMFeedback feedbackViewController]];
-    }
+//    if ([self.delegate respondsToSelector:@selector(pushTo:)]) {
+//        
+//        [self.delegate pushTo:[UMFeedback feedbackViewController]];
+//    }
 }
 
 @end
